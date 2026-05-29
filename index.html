@@ -537,6 +537,11 @@
             object-fit: contain;
         }
 
+        /* 单独缩小【分析总结】里的图片 */
+        #analysis .reference-img {
+            max-width: 280px;
+        }
+
         /* ========== 新增：图片并排容器样式 ========== */
         .img-row-container {
             display: flex;
@@ -834,6 +839,10 @@
             /* 移动端图片自适应 */
             .reference-img {
                 max-width: 90%;
+            }
+            /* 移动端分析页图片继续缩小适配 */
+            #analysis .reference-img {
+                max-width: 220px;
             }
             /* 移动端调整强调文字大小 */
             .emphasis-text {
