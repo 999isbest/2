@@ -537,9 +537,9 @@
             object-fit: contain;
         }
 
-        /* 单独缩小【分析总结】里的图片 */
+        /* 🔥 核心修改：把分析总结里的黑白人像缩到更小 */
         #analysis .reference-img {
-            max-width: 280px;
+            max-width: 200px; /* 电脑端：200px */
         }
 
         /* ========== 新增：图片并排容器样式 ========== */
@@ -840,9 +840,9 @@
             .reference-img {
                 max-width: 90%;
             }
-            /* 移动端分析页图片继续缩小适配 */
+            /* 移动端：黑白人像再缩小 */
             #analysis .reference-img {
-                max-width: 220px;
+                max-width: 160px;
             }
             /* 移动端调整强调文字大小 */
             .emphasis-text {
@@ -875,7 +875,7 @@
                 text-align: justify;
             }
             /* 移动端提示文本居中 */
-            .hint {
+            hint {
                 text-align: center !important;
                 text-align-last: center !important;
             }
@@ -990,8 +990,8 @@
                 <div class="content-card">
                     <div class="card-content">
                         <p class="analysis-text no-highlight">正如尼尔·波兹曼在《娱乐至死》中警示：<span class="underline-text">“一切公众话语日渐以娱乐的方式出现，并成为一种文化精神。我们的政治、宗教、新闻、体育、教育和商业都心甘情愿地成为娱乐的附庸，毫无怨言，甚至无声无息，其结果是我们成了一个娱乐至死的物种。”</span></p>
-                        <!-- 添加指定的黑白人像图片 -->
-                        <img src="https://raw.githubusercontent.com/999isbest/hswImagelink/refs/heads/main/%E5%B0%BC%E5%B0%94%E6%B3%A2%E5%85%B9%E6%9B%BC.png" title="黑白人像" class="reference-im" title="黑白人像" class="reference-img">
+                        <!-- 黑白人像图片（已缩小） -->
+                        <img src="https://raw.githubusercontent.com/999isbest/hswImagelink/refs/heads/main/%E5%B0%BC%E5%B0%94%E6%B3%A2%E5%85%B9%E6%9B%BC.png" title="黑白人像" class="reference-img">
                         <p class="analysis-text no-highlight">娱乐本身不是问题，<span class="emphasis-text">但当所有公共话语都变成娱乐的附庸，当不经思考的网络玩梗毫无节制，当个体责任消解于群体浪潮</span>，我们将逐渐丧失理性讨论的能力，原本承载创意的表达形式也会异化为<span class="emphasis-text">网络暴力的遮羞布。</span></p>
                     </div>
                 </div>
